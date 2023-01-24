@@ -1,0 +1,7 @@
+#Lets build a Robot Barista
+print("Hello, welcome to network chuck coffee!!!!")
+name = input("What is your name?\n")
+print("Hello " + name + " , thank you so much for coming in today.\n\n\n\n")
+Menu = "black coffee, latte, espresso, cappuccino"
+order = input(name + ". Here's Our Menu " + Menu + " What would you like to order today?\n")
+print("Sounds good " + name + ", We'll Have that " + order + " ready for you in a moment.")
